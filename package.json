@@ -1,0 +1,18 @@
+{
+  "name": "mam_experiments",
+  "version": "1.0.0",
+  "description": "A Command line program that runs an experiment detailed in xyz paper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "iota.lib.js": "^0.4.7",
+    "mam.client.js": "git+https://github.com/l3wi/mam.client.js.git#feature/importable",
+    "prompt": "git+https://github.com/flatiron/prompt.git",
+    "randomstring": "^1.1.5",
+    "superagent": "^3.8.2"
+  }
+}
